@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Image Pixelated</string>
+    <string name="select_image">Select Image</string>
+    <string name="okey">OK</string>
+    <string name="height_pixel">Numbers of pixels in height:</string>
+    <string name="width_pixel">Numbers of pixels in width:</string>
+    <string name="image_that_user_choose">image that user choose</string>
+    <string name="info">Info</string>
+    <string name="options">Options</string>
+    <string name="generate">GENERATE</string>
+    <string name="Info">Info</string>
+    <string name="Edit">Edit</string>
+    <string name="Picture">Photo</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="info_txt_1">\u3000本软件提供四种基本功能。图片压缩，图片像素画，图片颜色综合和图片分割再拼接。\n</string>
+    <string name="info_txt_2">1.\u3000图片压缩功能提供两种不同的方法，分别是采样发和二项采样发。具体原理可以参考一下网址。</string>
+    <string name="info_txt_3">2.\u3000图片像素化功能将通过用户提供的区块大小对图片进行像素化。基本原理是将图片分成正方形的区块并取这个区块最多的颜色作为整个区块的颜色。需要注意的是有两点：第一，是取这个区块最多的颜色而不是这个区块的平均值。第二，像素化不会改变您提供图片的“清晰度”，及图片长宽占的像素数量不变。并没有将整个区块的像素变成一个像素，只是把整个区块的像素都变成了同一种颜色。</string>
+    <string name="info_txt_4">3.\u3000颜色综合功能是获取您输入的颜色相似度（颜色的间距来反映颜色的相似程度）。这个功能将搜索整个图片中的像素点分成不同的组，保证每个组中的像素点的颜色之间的间距都在这个范围之内。再通过计算这个组所有像素的平均颜色来确定这个组的所有像素点应该改成什么颜色。\n</string>
+    <string name="info_txt_5">\u3000之后会开发新功能，及让用户选择需要的颜色，再从图片中找和需要颜色相近的像素点。因为现在碰到的问题是，程序是随机选择基准像素的，并没有选择这幅画的主要颜色来找像素组。比如说用户给一张的图片。你知道假如要画一个“火”的像素化，你一定会选择红，橙，黄这三种颜色来做主题颜色。但是目前算法只会随机算则基准值，如果算法选择橙色作为颜色基准值，则将会筛选和橙色距离近的颜色，比如红色和黄色，那么像素画则不会生动形象。如果调小范围则会出现图片没有什么改变的问题。\n</string>
+    <string name="info_txt_6">4.\u3000图片的剪切再重组。通过输入区块大小，x间距和y间距来截取图片的一部分，再重新组合成一个新的图片。下面是具体的原理图。</string>
+    <string name="introduction">Introduction\n</string>
+</resources>
